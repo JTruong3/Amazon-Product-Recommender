@@ -1,3 +1,5 @@
 # Data files
 *.json
 
+# Jupyter notebook checkpoints
+*.ipynb_checkpoints

@@ -10,4 +10,12 @@ This project will be about using machine learning to recommend products to users
 5. Recommendation System
 6. Website for user to put in sample reviews for a product and receive a recommendation
 
+# Setup environment
+
+conda env create -f environment.yml
+
+# New Packages
+
+conda env export > aienv.yml
+
 
