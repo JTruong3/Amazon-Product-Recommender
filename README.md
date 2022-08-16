@@ -16,6 +16,6 @@ conda env create -f environment.yml
 
 # New Packages
 
-conda env export > aienv.yml
+conda env export > environment.yml
 
 
