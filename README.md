@@ -4,8 +4,8 @@ This project will be about using machine learning to recommend products to users
 ### Goals for this Project
 
 1. Simple preprocessing and cleaning :heavy_check_mark: (08-19-2022)
-2. EDA, Simple models and Visualizations
-3. Text preprocessing and cleaning 
+2. EDA, Simple models and Visualizations :heavy_check_mark: (08-25-2022)
+3. Text preprocessing and cleaning :heavy_check_mark: (09-02-2022)
 4. Advanced models and Visualizations
 5. Recommendation System
 6. Data pipeline
