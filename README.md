@@ -1,22 +1,35 @@
 # Recommender System based on Amazon reviews
-This project will be about using machine learning to recommend products to users that made amazon reviews.
+This project will be about using machine learning to recommend products to users that made amazon reviews. Based off of the sentiment of review, different products will be recommended to the user.
 
-### Goals for this Project
+## This repo contains:
 
-1. Simple preprocessing and cleaning :heavy_check_mark: (08-19-2022)
-2. EDA, Simple models and Visualizations :heavy_check_mark: (08-25-2022)
-3. Text preprocessing and cleaning :heavy_check_mark: (09-02-2022)
-4. Advanced models and Visualizations
-5. Recommendation System
-6. Data pipeline
-7. Website for user to put in sample reviews for a product and receive a recommendation
+**Saved_Models Folder** - Models used in this repo are saved in this folder and can be loaded into the respective notebooks denoted by the number at the beginning of the file names.
 
-# Setup environment
+**1a_Preprocessing_and_EDA** - Contains preprocessing and EDA for the amazon review data.
+**1b_Meta_Data_Cleaning** - Contains preprocessing and EDA for the product metadata.
+**2_Modelling_Without_Text_Data** - Contains three ML models to determine if numeric features excluding the text can be used to predict the review sentiment.
+**3_NLP_Analysis** - Contains three ML models to use the review text to predict the review sentiment.
+**4_Recommendation_System** - Contains 1 recommendation system to recommend products based off of review sentiment and the product description.
 
-conda env create -f environment.yml
+**environment.yml** - Saved environment dependencies used for this repo
 
-# New Packages
+## Workflow to replicate results:
 
-conda env export > environment.yml
+**1. Setup environment**
+
+    conda env create -f environment.yml
+
+
+**2. Obtain data**
+
+**3. Run workbooks in order**
+    From preprocessing and EDA first to Recommendation systems last
+    1a -> 1b -> 2 -> 3 -> 4
+
+
+Future works
+1. Data pipeline
+2. Website for user to put in sample reviews for a product and receive a recommendation
+
 
 
