@@ -17,19 +17,18 @@ This project will be about using machine learning to recommend products to users
 
 **1. Setup environment**
 
-    conda env create -f environment.yml
-
+    conda env create -f environment.yml  
 
 **2. Obtain data**
+- Download the data from http://deepyeti.ucsd.edu/jianmo/amazon/index.html  
+- The data used in this repo are 'Movies and TV' reviews (8,765,568 reviews) and metadata (203,970 products)  
+Note: the 8.7 million reviews are about 5GB and the metadata is about 300MB  
 
 **3. Run workbooks in order**  
     From preprocessing and EDA first to Recommendation systems last  
     1a -> 1b -> 2 -> 3 -> 4  
 
 
-Future works
-1. Data pipeline
-2. Website for user to put in sample reviews for a product and receive a recommendation
 
 
 
