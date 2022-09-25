@@ -1,5 +1,5 @@
 # Recommender System based on Amazon reviews
-This project will be about using machine learning to recommend products to users that made amazon reviews. Based off of the sentiment of review, different products will be recommended to the user.
+This project will be about using machine learning to recommend products to users that made amazon reviews. Based on the sentiment of the review, different products will be recommended to the user.
 
 ## This repo contains:
 
@@ -11,7 +11,11 @@ This project will be about using machine learning to recommend products to users
 **3_NLP_Analysis** - Contains three ML models to use the review text to predict the review sentiment.  
 **4_Recommendation_System** - Contains 1 recommendation system to recommend products based off of review sentiment and the product description.  
 
+**utils.py** - Functions that are being used in multiple notebooks.
+
 **environment.yml** - Saved environment dependencies used for this repo
+
+
 
 ## Workflow to replicate results:
 
